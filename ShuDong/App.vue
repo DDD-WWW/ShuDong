@@ -139,7 +139,9 @@
 	
 	.button{
 		margin:0 30upx;
-		background: #0dbf8c;
+		background: linear-gradient(45deg, #6C63FF, #409EFF);
+		box-shadow: 8upx 8upx 20upx #87888d, 
+		          -8upx -8upx 20upx fade(#6C63FF, 30);
 		border-radius:50upx;
 		line-height: 80upx;
 		height: 80upx;

@@ -1,89 +1,89 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{ "path" : "pages/login/login",
-            "style" : {
-				"navigationBarTitleText": "树洞"
-			}
-        }
-        ,{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": true
-			}
-		}
-	    ,{
-			"path": "pages/user/user",
+		        "style" : {
+					"navigationBarTitleText": "树洞"
+				}
+		    }
+		    ,{
+				"path": "pages/index/index",
 				"style": {
-					"navigationBarTitleText": ""
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true
 				}
-		}
-	    ,{
-            
-            "path" : "pages/register/register",
-            "style" : {
-				"navigationBarTitleText": "注册"
 			}
-        }
-        ,{
-            "path" : "pages/forget-pwd/forget-pwd",
-            "style" : {
-				"navigationBarTitleText": "重置密码"
-			}
-        }
-		,{
-			"path" : "pages/set/set",
-			    "style" : {
-					"navigationBarTitleText": "设置"
-				}
-		}
-        ,{
-			"path" : "pages/submission/submission",
-				    "style" : {
-						"navigationBarTitleText": "投稿"
+		    ,{
+				"path": "pages/user/user",
+					"style": {
+						"navigationBarTitleText": ""
 					}
-		}
-		,{
-			"path": "pages/theme/theme",
-			    "style": {
-			      "navigationBarTitleText": "主题更换"
+			}
+		    ,{
+		        
+		        "path" : "pages/register/register",
+		        "style" : {
+					"navigationBarTitleText": "注册"
+				}
+		    }
+		    ,{
+		        "path" : "pages/forget-pwd/forget-pwd",
+		        "style" : {
+					"navigationBarTitleText": "重置密码"
+				}
+		    }
+			,{
+				"path" : "pages/set/set",
+				    "style" : {
+						"navigationBarTitleText": "设置"
+					}
+			}
+		    ,{
+				"path" : "pages/submission/submission",
+					    "style" : {
+							"navigationBarTitleText": "投稿"
+						}
+			}
+			,{
+				"path": "pages/theme/theme",
+				    "style": {
+				      "navigationBarTitleText": "主题更换"
+				    }
+			}    
+			,{
+		        "path" : "pages/applicationSet/applicationSet",
+		        "style" :                                                                                    
+		        {
+		            "navigationBarTitleText": "",
+		            "enablePullDownRefresh": false
+		        }
+		        
+		    }
+			,{"path" : "pages/submit/submit",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": false
 			    }
-		}    
-		,{
-            "path" : "pages/applicationSet/applicationSet",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-		,{"path" : "pages/submit/submit",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false
+			    
+			}
+		    ,{
+		        "path" : "pages/collect/collect",
+		        "style" :                                                                                    
+		        {
+		            "navigationBarTitleText": "",
+		            "enablePullDownRefresh": false
+		        }
+		        
 		    }
-		    
-		}
-        ,{
-            "path" : "pages/collect/collect",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-		,{"path" : "pages/letterBox/letterBox",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		}
-    ],
+			,{"path" : "pages/letterBox/letterBox",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": false
+			    }
+			    
+			}
+		],
 	"globalStyle": {
 		"backgroundTextStyle": "light",
 		"navigationBarBackgroundColor": "#FFFFFF",
@@ -95,16 +95,20 @@
 	"uniIdRouter": {},
 	"tabBar": {
 		"color": "#7A7E83",
-		"selectedColor": "#0dbf8c",
+		"selectedColor": "#6C63FF",
 		"borderStyle": "#FFFFFF",
 		"backgroundColor": "#ffffff",
 		"list": [{
 			"pagePath": "pages/index/index",
-			"text": "大家的树洞"
+			"text": "大家的树洞",
+			"iconPath": "/static/tabbar/home.png",
+			"selectedIconPath": "/static/tabbar/home-active.png"
 		}, 
 		{
 		    "pagePath": "pages/user/user",
-		    "text": "我的树洞"
+		    "text": "我的树洞",
+			"iconPath": "/static/tabbar/mine.png",
+			"selectedIconPath": "/static/tabbar/mine-active.png"
 		}]
 	}
 	
